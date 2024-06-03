@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="./css/style1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="products">
+            <h2>Available Products</h2>
+            <div class="product" data-id="1" data-name="Relaxed Fit T-shirt" data-price="12.99" data-stock="12">
+                <img src="./img/tshirt.jpg" alt="Relaxed Fit T-shirt">
+                <h3>Relaxed Fit T-shirt</h3>
+                <p>Price: $12.99</p>
+                <p>Stock: <span class="stock">12</span></p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" data-id="2" data-name="Nylon Cap" data-price="8.99" data-stock="1">
+                <img src="./img/cap.jpg" alt="Nylon Cap">
+                <h3>Nylon Cap</h3>
+                <p>Price: $8.99</p>
+                <p>Stock: <span class="stock">1</span></p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" data-id="3" data-name="Massive Sport Shoes" data-price="8.99" data-stock="0">
+                <img src="./img/shoes.jpg" alt="Massive Sport Shoes">
+                <h3>Massive Sport Shoes</h3>
+                <p>Price: $8.99</p>
+                <p>Stock: <span class="stock">0</span></p>
+                <button disabled>Add to Cart</button>
+            </div>
+            <div class="product" data-id="4" data-name="Hooded Sweatshirt Relaxed Fit" data-price="16.99" data-stock="2">
+                <img src="./img/hoodie.jpg" alt="Hooded Sweatshirt Relaxed Fit">
+                <h3>Hooded Sweatshirt Relaxed Fit</h3>
+                <p>Price: $16.99</p>
+                <p>Stock: <span class="stock">2</span></p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product" data-id="5" data-name="Relaxed Fit Pima Cotton Sweater" data-price="19.99" data-stock="4">
+                <img src="./img/sweater.jpg" alt="Relaxed Fit Pima Cotton Sweater">
+                <h3>Relaxed Fit Pima Cotton Sweater</h3>
+                <p>Price: $19.99</p>
+                <p>Stock: <span class="stock">4</span></p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="cart">
+            <h2>Cart</h2>
+            <div class="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+        </div>
+        <div class="summary">
+            <h2>Delivery</h2>
+            <button class="delivery-option">Free</button>
+            <button class="delivery-option">Express: $4.99</button>
+            <input type="text" placeholder="Promocode">
+            <button class="apply">Apply</button>
+            <p>Discount: $0.00</p>
+            <p>Delivery: $0.00</p>
+            <p>Tax: $12.00</p>
+            <h3>Total: $0.00</h3>
+            <button class="checkout">Proceed to checkout</button>
+            <button class="continue">Continue shopping</button>
+        </div>
+    </div>
+    <script src="./js/task1.js"></script>
+</body>
+</html>

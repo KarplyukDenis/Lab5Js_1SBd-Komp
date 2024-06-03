@@ -1,0 +1,25 @@
+.palette {
+  display: grid;
+  grid-template-columns: repeat(3, 50px);
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .color {
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .canvas {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(8, 50px); /* Пример: создание сетки 10x10 */
+    gap: 2px; /* Пример: расстояние между квадратиками */
+  }
+  .canvas div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc; /* Пример: границы между квадратиками */
+  }

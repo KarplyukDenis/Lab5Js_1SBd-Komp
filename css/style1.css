@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+ .cart, .summary {
+    padding: 20px;
+    width: 350px;
+}
+.products{
+    padding: 20px;
+    width: 400px;
+}
+
+.products h2, .cart h2, .summary h2 {
+    margin-bottom: 20px;
+}
+
+.product, .cart-item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.product img, .cart-item img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.product h3, .cart-item h3 {
+    margin: 0 0 10px 0;
+}
+
+.product p, .cart-item p {
+    margin: 5px 0;
+}
+
+.product button, .cart-item button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.product button:active, .cart-item button:active {
+    background-color: white;
+    color: #000;
+    outline: solid 2px;
+}
+
+.product button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.summary button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 4px;
+}
+
+.summary input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.summary p {
+    margin: 10px 0;
+}
+
+.summary h3 {
+    margin-top: 20px;
+}
+
+.summary button:last-child {
+    background-color: #555;
+}
+.delivery-option{
+  cursor: pointer;
+}
+.delivery-option:active{
+    background-color: white;
+    color: #000;
+    outline: solid 2px;
+}
+.apply{
+  cursor: pointer;
+}
+.apply:active{
+    background-color: white;
+    color: #000;
+    outline: solid 2px;
+}
+.checkout{
+  cursor: pointer;
+}
+.checkout:active{
+    background-color: white;
+    color: #000;
+    outline: solid 2px;
+}
+.continue{
+  cursor: pointer;
+}
+.continue:active{
+    background-color: white;
+    color: #000;
+    outline: solid 2px;
+}
